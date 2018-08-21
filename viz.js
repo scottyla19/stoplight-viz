@@ -149,7 +149,7 @@ function plotGraph(selectedVal){
             .attr("y", function(d) { return y(d.EFG_PCT); })
             .attr("height", function(d) { return d.UAST_PCT*30; })
             .attr("width", function(d) { return d.RA_AST_PCT*30; })
-            .attr("fill-opacity","0.5")
+            .attr("fill-opacity","0.7")
             .style("fill", function(d) {return "url(#gradient-" + d.PID + ")";})
             .style("stroke","black")
             .style("stroke-width","1px")
